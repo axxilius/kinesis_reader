@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://nexus.local.playrix.com/repository/playrix-pypi/simple"
+verify_ssl = true
+name = "nexus"
+
+[packages]
+it-pylogger = "==1.32"
+it-queue-workers = "==1.1.19"
+redis = "==3.5.3"
+boto3 = "==1.21.33"
+jsonschema = "==4.0.1"
+backoff = "==1.11.1"
+aioredis = "==2.0.0"
+orjson = "==3.6.7"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
